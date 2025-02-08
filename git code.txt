@@ -1,0 +1,29 @@
+# Vérifier les branches locales
+git branch
+
+# Créer une nouvelle branche et basculer dessus
+git checkout -b develop
+
+# Ajouter des fichiers
+git add .
+
+# Committer les changements
+git commit -m "Ajout de la fonctionnalité X"
+
+# Pousser la branche de développement vers GitHub
+git push -u origin develop
+
+# Basculer vers la branche principale
+git checkout main
+
+# Fusionner la branche de développement dans la branche principale
+git merge develop
+
+# Pousser les changements vers GitHub
+
+
+# Supprimer la branche de développement localement
+git branch -d develop
+
+# Supprimer la branche de développement sur GitHub
+git push origin --delete develop
